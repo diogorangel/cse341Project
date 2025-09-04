@@ -1,0 +1,20 @@
+{
+  "name": "cse341project",
+  "version": "1.0.0",
+  "description": "assingments projects cse341",
+  "homepage": "https://github.com/diogorangel/cse341Project#readme",
+  "bugs": {
+    "url": "https://github.com/diogorangel/cse341Project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogorangel/cse341Project.git"
+  },
+  "license": "ISC",
+  "author": "Diogo Rangel",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
