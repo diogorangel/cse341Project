@@ -1,0 +1,36 @@
+### Get all users
+GET https://cse341project-h93z.onrender.com/users HTTP/1.1
+Content-Type: application/json
+
+### Get a single user by ID Replace <id> with a valid user ID
+GET https://cse341project-h93z.onrender.com/users/68b9dc8463e669b4781da32e
+Content-Type: application/json
+
+### Create a new user All fields are required.
+POST https://cse341project-h93z.onrender.com/users
+Content-Type: application/json
+
+ {
+  "firstName": "Hunter",
+  "lastName": "teste",
+  "email": "hunter@example.com",
+  "favoriteColor": "blue",
+  "birthday": "1995-08-25"
+ }
+
+
+### Update an existing user Replace <id> with a valid user ID
+PUT https://cse341project-h93z.onrender.com/users/68c4cfbd13c661cd34b30511
+Content-Type: application/json
+
+{
+     "firstName": "Lik",
+     "lastName": "Bulo",
+     "email": "link.bulo@example.com",
+     "favoriteColor": "Ice",
+     "birthday": "1995-08-25"
+}
+
+### Delete a user Replace <id> with a valid user ID
+DELETE https://cse341project-h93z.onrender.com/users/68c4d03f574f3cb6fbc3032d
+Content-Type: application/json

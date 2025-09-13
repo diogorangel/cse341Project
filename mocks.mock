@@ -1,0 +1,19 @@
+{
+  "firstName": "Hunter",
+  "lastName": "teste",
+  "email": "hunter@example.com",
+  "favoriteColor": "blue",
+  "birthday": "1995-08-25"
+ }
+
+ {
+  "firstName": "Filter",
+  "lastName": "Driver",
+  "email": "driver.filter@example.com",
+  "favoriteColor": "Green",
+  "birthday": "1995-10-01"
+ }
+
+
+ http://localhost:8080
+ https://cse341project-h93z.onrender.com
